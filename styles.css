@@ -1,0 +1,899 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #fff;
+    background-color: #141414;
+}
+header{
+    padding: 40px 50px 10px 50px;
+    background-color: #141414;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 160px;
+    height: 33px;
+   margin: 30px;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    margin : 30px;
+}
+.menu a{
+color: #ffffff;
+text-decoration: none;
+font-weight: 400;
+font-size: 17px;
+}
+.menu a:hover {
+    color: #118da8;
+    
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+.image {
+    width: 650px;
+    height: 873.44px;
+}
+
+.content {
+    max-width: 500px;
+
+}
+.content h2{
+    font-size: 70px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 88px;
+    margin-top: 300px;
+    margin-bottom: 80px ;
+}
+.content h2 span{
+font-size: 75px;
+font-weight: 400;
+}
+
+.content p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.platforms {
+    margin-top: 20px;
+    
+}
+.icons {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+}
+
+.seconpage {
+    display: flex;
+    width: 513px;
+    height: 80px;
+    margin-top: 20px;
+    text-align: center;
+}
+.logotwo{
+    width: 513px;
+    height: 80px;
+    margin: 30px;
+ 
+
+
+}
+.knopka{
+    position: relative;
+    left: 700px;
+    top: 40px;
+   
+    
+   
+}
+  
+button.viaw {
+    
+    background-color: #007BFF;
+    color: #ffffff;
+    width: 178px;
+    height: 51px;
+    border-radius: 6px;
+  
+}
+
+button.viaw:hover {
+    background-color: #0056b3;
+}
+
+
+ .two1{
+    background-color: black;
+    width: 1300px;
+    height: 545px;
+    border-radius: 32px;
+    margin: 0 auto;
+    top: 50px;
+    position: relative;
+    display: block;
+ }
+
+ .suret {
+    width: 389px;
+    height: 465px;
+    top: 40.44px;
+    position: relative;
+    left: 40px;
+ }
+ 
+ .block1{
+    
+    width: 772px;
+    height: 465px;
+    position: absolute;
+    top: 40.44px;
+   
+    left: 500px;
+ }
+ 
+ .gear{
+    width: 73px;
+    height: 27px;
+    position: relative;
+    top: 7.56px;
+    background-color: rgb(28, 23, 28);
+    border-radius: 6px;
+ }
+ .gear p{
+    text-align: center;
+    color: #ffffff;
+   
+ }
+
+ .episodes {
+    width: 82px;
+    height: 27px;
+    top: 83px;
+    position: absolute;
+    }
+ .episodes p{color: #118DA8;
+  
+    
+
+ }
+ .abzas{
+    width: 701px;
+    height: 141px;
+    top: 127.56px;
+    position: absolute;
+ }
+ .abzas p{
+    font-family: DM Sans;
+    font-size: 64px;
+    font-weight: 400;
+    
+}
+    
+.isharware{
+     width: 773px;
+     height: 66px;
+     top: 296.56px;
+     position: absolute;
+     font-family: DM Sans;
+     font-size: 22px;
+     font-weight: 400;
+
+}
+
+.ViewEpisodes{
+    width: 208px;
+    height: 51px;
+    top: 413.56px;
+    position: relative;
+   
+}
+.viaw2{
+    background-color: #118DA8;
+    color: #ffffff;
+    border-radius: 6px;
+    height: 27px;
+    width: 173px;
+}
+
+.three3{
+    background-color: black;
+    width: 1300px;
+    height: 512px;
+    border-radius: 32px;
+    margin: 50px auto;
+    top: 50px;
+    position: relative;
+    display: block;
+}
+.mickr{
+    width: 389px;
+    height: 465px;
+    top: 40.44px;
+    position: relative;
+    left: 40px;
+}
+
+.block22{
+    
+    width: 772px;
+    height: 465px;
+    position: absolute;
+    top: 40.44px;
+    left: 500px;
+ }
+ .tips{
+    width: 136px;
+    height: 27px;
+    position: relative;
+    top: 7.56px;
+    background-color: rgb(28, 23, 28);
+    border-radius: 6px;
+ }
+ .tips p{
+    text-align: center;
+    color: #ffffff;
+   
+ }
+
+ .episodes2 {
+    width: 82px;
+    height: 27px;
+    top: 83px;
+    position: absolute;
+    }
+ .episodes2 p{
+    color: #118DA8;
+}
+
+.mic{
+    width: 676px;
+    height: 141px;
+    top: 127.56px;
+    position: absolute;
+ }
+ .mic p{
+    font-family: DM Sans;
+    font-size: 64px;
+    font-weight: 400;
+    
+}
+  
+.stop{
+    width: 773px;
+    height: 66px;
+    top: 296.56px;
+    position: absolute;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+
+.button3{
+   width: 208px;
+   height: 51px;
+   top: 380.56px;
+   position: relative;
+  
+  
+}
+.butt{
+   background-color: #118DA8;
+   color: #ffffff;
+   width: 173px;
+   height: 27px;
+   border-radius: 6px;
+}    
+
+.fo4{
+    background-color: black;
+    width: 1300px;
+    height: 512px;
+    border-radius: 32px;
+    margin: 50px auto;
+    top: 50px;
+    position: relative;
+    display: block;
+}
+.kartina{
+    width: 389px;
+    height: 465px;
+    top: 40.44px;
+    position: relative;
+    left: 40px;
+}
+
+.block33{
+    
+    width: 772px;
+    height: 465px;
+    position: absolute;
+    top: 40.44px;
+    left: 500px;
+ }
+ .gear2{
+    width: 73px;
+    height: 27px;
+    position: relative;
+    top: 7.56px;
+    background-color: rgb(28, 23, 28);
+    border-radius: 6px;
+ }
+ .gear2 p{
+    text-align: center;
+    color: #ffffff;
+   
+ }
+
+ .episodes1 {
+    width: 82px;
+    height: 27px;
+    top: 83px;
+    position: absolute;
+    }
+ .episodes1 p{
+    color: #118DA8;
+}
+
+.the{
+    width: 611px;
+    height: 141px;
+    top: 127.56px;
+    position: absolute;
+ }
+ .the p{
+    font-family: DM Sans;
+    font-size: 64px;
+    font-weight: 400;
+    
+}
+  
+.with{
+    width: 773px;
+    height: 66px;
+    top: 296.56px;
+    position: absolute;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+
+.button4{
+   width: 208px;
+   height: 51px;
+   top: 380.56px;
+   position: relative;
+  
+  
+}
+.viaw4{
+   background-color: #118DA8;
+   color: #ffffff;
+   width: 173px;
+   height: 27px;
+   border-radius: 6px;
+}    
+
+.five{
+    background-color: #141414;
+    width: 1400px;
+    height: 843px;
+    left: 50px;
+    top: 100.44px;
+    position: relative;
+    display: block;
+
+}
+.korobka {
+    width: 590px;
+    height: 448px;
+    top: 147.72px;
+   
+    position: relative;
+    
+    
+}
+.strelka{
+    width: 112px;
+    height: 112px;
+}
+.strelka p{
+    width: 112px;
+    height: 112px;
+    border-radius: 400px;
+    background-color: #118DA8;
+    text-align: center ;
+    font-size: 80px;
+    position: absolute;
+    
+}
+.meet {
+    width: 126px;
+    height: 27px;
+    top: 131.84px;
+    position: absolute;
+}
+
+.meet p{
+    color: #118DA8;
+
+}
+
+.jacob{
+    width: 496px;
+    height: 80px;
+    top: 156.84px;
+    position: absolute;
+
+}
+
+.jacob p{
+    font-weight: 400;
+    font-size: 65px;
+    font-family: sans-serif;
+
+}
+.has {
+    width: 556px;
+    height: 65px;
+    top: 264.84px;
+    position: absolute;
+}
+.has p{
+    font-weight: 400;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+.here {
+    width: 528px;
+    height: 66px;
+    top: 363.84px;
+    position: absolute;
+}
+.here p{
+    font-weight: 400;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+.photo {
+    width: 650px;
+    height: 743px;
+    left: 650px;
+    position: absolute;
+    top: -0.44px;
+}
+
+
+.block4 {
+    width: 1300px;
+    height: 387px;
+    top: 100px;
+    left: 50px;
+    background-color: #000;
+    position: relative;
+    border-radius: 32px;
+}
+.news {
+    width: 139px;
+    height: 27px;
+    top: 59.13px;
+    position: absolute;
+    left: 60px;
+    }
+ .news p{
+    color: #118DA8;
+ }
+
+ .sub {
+    width: 431px;
+    height: 159px;
+    top: 85.13px;
+    position: absolute;
+    left: 60px ;
+ }
+
+ .sub p {
+    font-weight: 400;
+    font-size: 72px;
+    font-family: sans-serif;
+    position: absolute;
+   
+}
+.ggg{
+    width: 522px;
+    height: 252px;
+    top: 59.88px;
+    position: absolute;
+    background-color: #191919;
+    left: 718px;
+
+
+}
+.label {
+  
+    width: 522px;
+    height:  82px;
+    top: 0.13px;
+    border: 1px;
+    border-radius: 6px;
+    position: absolute;
+}
+.input {
+    width: 522px;
+    height: 82px;
+    top: 102.13px;
+    border: 1px;
+    border-radius: 6px;
+    position: absolute;
+
+}
+.submit{
+    width: 87px;
+    height: 48px;
+    top: 204.13px;
+    position: absolute;
+    l
+   
+}
+.subm{
+    background-color: #118DA8;
+    color: #ffffff;
+    border-radius: 6px;
+    font-size: 15px;
+    width: 53px;
+    height: 29px;
+
+}
+.kvadra{
+width: 1400px;
+height: 901px;
+left: 20px;
+position: relative;
+top: 200px;
+
+
+
+
+}
+.kvadrat1{
+    width: 423px;
+    height: 321px;
+    border-radius: 32px;
+   
+    background-color: #000;
+    position: absolute;
+}
+.qq111{
+    top: 54px;
+    left: 50px;
+    position: absolute;
+}
+
+.icant{
+    width: 313px;
+    height: 130px;
+    top: 92px;
+    left: 50px;
+    position: absolute;
+    line-height: 43.2px;
+}
+.icant p{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 400;
+
+}
+.betty{
+    width: 132px;
+    height: 29px;
+    top: 241px;
+    left: 50px;
+    position: absolute;
+}
+
+.betty p{
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+
+.kvadrat2{
+width: 423px;
+height: 364px;
+top: 337.12px;
+border-radius: 32px;
+position: absolute;
+background-color: #000;
+
+}
+.qq222{
+    top: 54px;
+    left: 50px;
+    position: absolute;
+}
+
+.every{
+    width: 313px;
+    height: 130px;
+    top: 92px;
+    left: 50px;
+    position: absolute;
+
+}
+.every p{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 400;
+
+}
+.jess{
+    width: 154px;
+    height: 29px;
+    top: 198px;
+    left: 50px;
+    position: absolute;
+}
+
+.jess p{
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 400;
+  
+}
+.kvadrat3{
+    width: 423px;
+    height: 321px;
+    left: 439px;
+    top: 0.12px;
+    border-radius: 32px;
+    position: absolute;
+    background-color: #000;
+}
+.qq333{
+    top: 54px;
+    left: 50px;
+    position: absolute;
+}
+
+.jac{
+    width: 313px;
+    height: 130px;
+    top: 92px;
+    left: 50px;
+    position: absolute;
+
+}
+.jac p{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 400;
+
+}
+.adan{
+    width: 154px;
+    height: 29px;
+    top: 198px;
+    left: 50px;
+    position: absolute;
+}
+
+.adan p{
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 400;
+  
+}
+.kvadrat4{
+    width: 423px;
+    height: 364px;
+    top: 337.12px;
+    left: 439px;
+    border-radius: 32px;
+    position: absolute;
+    background-color: #000;
+    
+    }
+        .qq444{
+              top: 54px;
+              left: 50px;
+              position: absolute;
+                            }
+    
+            .whao{
+                 width: 313px;
+                height: 130px;
+                top: 92px;
+                left: 50px;
+                position: absolute;
+      
+    }
+    .whao p{
+        font-family: DM Sans;
+        font-size: 36px;
+        font-weight: 400;
+    
+    }
+    .scot{
+        width: 154px;
+        height: 29px;
+        top: 198px;
+        left: 50px;
+        position: absolute;
+    }
+    
+    .scot p{
+        font-family: DM Sans;
+        font-size: 24px;
+        font-weight: 400;
+      
+    }
+
+
+    .kvadrat5{
+        width: 423px;
+        height: 321px;
+        left: 877px;
+        top: 0.12px;
+        border-radius: 32px;
+        position: absolute;
+        background-color: #000;
+    }
+    .qq555{
+        top: 54px;
+        left: 50px;
+        position: absolute;
+    }
+    
+    .awea{
+        width: 313px;
+        height: 130px;
+        top: 92px;
+        left: 50px;
+        position: absolute;
+    
+    }
+    .awea p{
+        font-family: DM Sans;
+        font-size: 36px;
+        font-weight: 400;
+    
+    }
+    .marc{
+        width: 154px;
+        height: 29px;
+        top: 198px;
+        left: 50px;
+        position: absolute;
+    }
+    
+    .marc p{
+        font-family: DM Sans;
+        font-size: 24px;
+        font-weight: 400;
+      
+    }
+
+
+    .kvadrat6{
+        width: 423px;
+        height: 364px;
+        top: 337.12px;
+        left: 877px;
+        border-radius: 32px;
+        position: absolute;
+        background-color: #000;
+        
+        }
+            .qq666{
+                  top: 54px;
+                  left: 50px;
+                  position: absolute;
+                                }
+        
+                .ive{
+                     width: 313px;
+                    height: 130px;
+                    top: 92px;
+                    left: 50px;
+                    position: absolute;
+          
+        }
+        .ive p{
+            font-family: DM Sans;
+            font-size: 36px;
+            font-weight: 400;
+        
+        }
+        .stev{
+            width: 154px;
+            height: 29px;
+            top: 284px;
+            left: 50px;
+            position: absolute;
+        }
+        
+        .stev p{
+            font-family: DM Sans;
+            font-size: 24px;
+            font-weight: 400;
+          
+        }
+    
+    .end{
+        width: 1400px;
+        height: 438px;
+        left: 20px;
+        position: absolute;
+        
+        top: 852px;
+    }
+            .cast{
+                width: 224PX;
+                height: 46px;
+                top: 0.13px;
+                position: relative;
+            }
+            
+            .insta{
+                top: 3.02px;
+                position: relative;
+            }
+            
+            .home{
+                position: absolute;
+                width: 178.84px;
+                height: 222px;
+                left: 463.14px;
+                top: 0.13px;
+            }
+                .home p{
+                    font-family: DM Sans;
+                    font-size: 17px;
+                    font-weight: 400;
+                    margin: 10px;
+                }
+            
+            .style{
+                width: 178.84px;
+                height: 222px;
+                left: 657.98px;
+                position: absolute;
+                top: 0.13px;
+            }
+                .style p{
+                    font-family: DM Sans;
+                    font-size: 17px;
+                    font-weight: 400;
+                    margin: 9px;                         
+
+                }
+
+
+                .last{
+                    left: 852.83px;
+                    position: absolute;
+                    top: 0.13px;
+                }
