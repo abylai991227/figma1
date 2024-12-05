@@ -85,21 +85,22 @@ font-weight: 400;
     display: flex;
     width: 513px;
     height: 80px;
-    margin-top: 20px;
+    margin-left: 17px;
     text-align: center;
 }
 .logotwo{
     width: 513px;
     height: 80px;
-    margin: 30px;
+    margin: 0px;
  
 
 
 }
 .knopka{
-    position: relative;
+   
     left: 700px;
-    top: 40px;
+    top: 1000px;
+    margin-left: 600px;
    
     
    
@@ -125,10 +126,10 @@ button.viaw:hover {
     width: 1300px;
     height: 545px;
     border-radius: 32px;
-    margin: 0 auto;
-    top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
     position: relative;
-    display: block;
+    
  }
 
  .suret {
@@ -145,7 +146,7 @@ button.viaw:hover {
     height: 465px;
     position: absolute;
     top: 40.44px;
-   
+    
     left: 500px;
  }
  
@@ -218,10 +219,10 @@ button.viaw:hover {
     width: 1300px;
     height: 512px;
     border-radius: 32px;
-    margin: 50px auto;
-    top: 50px;
+    margin-bottom: 50px;
+  
     position: relative;
-    display: block;
+    margin-left: 50px;
 }
 .mickr{
     width: 389px;
@@ -308,10 +309,9 @@ button.viaw:hover {
     width: 1300px;
     height: 512px;
     border-radius: 32px;
-    margin: 50px auto;
-    top: 50px;
+    margin-left: 50px;
     position: relative;
-    display: block;
+ 
 }
 .kartina{
     width: 389px;
@@ -397,10 +397,10 @@ button.viaw:hover {
     background-color: #141414;
     width: 1400px;
     height: 843px;
-    left: 50px;
+    margin-left: 50px;
     top: 100.44px;
     position: relative;
-    display: block;
+   
 
 }
 .korobka {
@@ -441,7 +441,7 @@ button.viaw:hover {
 .jacob{
     width: 496px;
     height: 80px;
-    top: 156.84px;
+    top: 146.84px;
     position: absolute;
 
 }
@@ -489,10 +489,11 @@ button.viaw:hover {
     width: 1300px;
     height: 387px;
     top: 100px;
-    left: 50px;
+
     background-color: #000;
     position: relative;
     border-radius: 32px;
+    margin-left: 50px;
 }
 .news {
     width: 139px;
@@ -520,40 +521,42 @@ button.viaw:hover {
     position: absolute;
    
 }
-.ggg{
-    width: 522px;
-    height: 252px;
-    top: 59.88px;
-    position: absolute;
-    background-color: #191919;
-    left: 718px;
 
 
-}
-.label {
-  
-    width: 522px;
-    height:  82px;
-    top: 0.13px;
-    border: 1px;
-    border-radius: 6px;
-    position: absolute;
-}
-.input {
+
+.form-name input {
     width: 522px;
     height: 82px;
-    top: 102.13px;
+    padding: 10px;
     border: 1px;
+    background-color: #191919;
     border-radius: 6px;
-    position: absolute;
-
+    font-size: 24px;
+    margin-left: 720px;
+    margin-top: 70px;
 }
-.submit{
+
+.form-email input {
+    width: 522px;
+    height: 82px;
+    padding: 10px;
+    border: 1px;
+    background-color: #191919;
+    border-radius: 6px;
+    font-size: 24px;
+    margin-left: 720px;
+    margin-top: 20px;
+   
+}
+
+.submit button{
     width: 87px;
     height: 48px;
-    top: 204.13px;
-    position: absolute;
-    l
+    margin-top: 20px;
+    margin-left: 720px;
+    size: 15;
+    
+    
    
 }
 .subm{
@@ -566,11 +569,13 @@ button.viaw:hover {
 
 }
 .kvadra{
-width: 1400px;
+width: 1500px;
 height: 901px;
 left: 20px;
 position: relative;
 top: 200px;
+margin-left: 40px;
+
 
 
 
